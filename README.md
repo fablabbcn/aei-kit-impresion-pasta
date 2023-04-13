@@ -2,7 +2,7 @@
 
 ![](img/DSC09098.jpg)
 
-Repositorio para el proyecto AEI-CLAB. Entregable de FabLab Barcelona conteniendo los perfiles de configuración de CURA para la [impresora de pasta de biomateriales](https://github.com/fablabbcn/aei-kit-impresion-pasta) y una copia del proyecto opensource de [slicer de Cura 5.2.1](https://github.com/Ultimaker/Cura). Los archivos de configuración ya no son necesarios para una instalación manual de la impresora, ya que viene por defecto incluido en el descargable del programa Cura a partir de la version 5.2.2.
+Repositorio para el proyecto AEI-CLAB. Entregable de FabLab Barcelona conteniendo el diseño,guías, dibujos de montaje y lista de elemento necesarios para la modificación de una impresora tipo Creality Ender3 para su modificación de impresión de tipo fused deposition modelling (FDM) a pasta .
 
 ![](img/printer.jpg)
 
