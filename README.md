@@ -40,6 +40,8 @@ El sistema funciona con presión de aire para el sistema de alimentación (más 
 
 Si desconecta el cabezal de impresión fdm de la máquina que modifica, deberá colocar una resistencia de 100k ohmios en el lugar donde estaba conectado el termistor del cabezal de impresión (sensor de temperatura).
 
+![](img/motherboard.jpg)
+
 ## Resumen de AEI-CLAB
 
 El objetivo de este proyecto es promover el uso de la tecnología maker y la impresión 3D en el ámbito educativo, utilizando materiales sostenibles y biocompatibles como la pasta de biomateriales.
