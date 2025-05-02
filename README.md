@@ -1,28 +1,45 @@
-# AEI-CLAB KIT de impresión en Pasta y Biomateriales
+# AEI-CLAB Paste and Biomaterials Printing Kit
 
 ![](img/DSC09098.jpg)
 
-Repositorio para el proyecto AEI-CLAB. Entregable de FabLab Barcelona conteniendo el diseño,guías, dibujos de montaje y lista de elemento necesarios para la modificación de una impresora tipo Creality Ender3 para su modificación de impresión de tipo fused deposition modelling (FDM) a pasta .
+Welcome to the repository for the AEI-CLAB project. This deliverable from [Fab Lab Barcelona](https://fablabbcn.org/) contains the design files, assembly guides, schematics, and the Bill of Materials (BOM) required to modify a Creality Ender3 or similar FDM 3D printer into a paste extrusion system.
 
 ![](img/printer.jpg)
 
-El sistema funciona con presión de aire para el sistema de alimentación (más seguro, más fácil de configurar y más limpio) y un cabezal extrusor controlado por motor.
-- Reducida cantidad de tornilleria, sólo 4 tornillos para un desmontaje completo (más fácil y rápido de limpiar después de terminar el trabajo)
-- Cartuchos presurizados de HDPE de grado industrial (200-300 cc) seguros hasta 6,9 bar (la presión de trabajo normal es de 3-4 bar)
-- Tornillos extrusores personalizados diseñados en acero inoxidable y chapados para evitar la corrosión.
-- Compresor de aire silencioso ~55db con un rango de hasta 6bar y depósito de 3l con válvula de regulación y liberación segura.
+**Key Features:**
 
-### Versión impresa en 3D
+* Air pressure feed for extrusion: safer, easier to configure, and cleaner.
+* Minimal hardware: only 4 screws needed for full disassembly, simplifying cleaning.
+* Industrial-grade HDPE pressurised cartridges (200–300 cc), rated up to 6.9 bar (typical working pressure: 3–4 bar).
+* Custom stainless-steel extruder screws with anti-corrosion plating.
+* Silent air compressor (\~55 dB), 6 bar range, 3L tank with regulation and safety release valves.
+  
+## 3D-Printed Version
 
 ![](img/v10pasteprinterkit.jpg)
 
-- todas las piezas caben en una impresora 3d estándar de 200x200x200 fdm
-- casi sin soportes
-- tiempo máximo de archivo 12 horas a una altura de capa de 0,3
-- menos de 1 kg (un carrete) de material
+* All parts fit within a 200 x 200 x 200 mm standard FDM 3D printer.
+* Minimal use of supports.
+* Maximum print time: 12 hours (0.3 mm layer height).
+* Less than 1 kg of filament required.
 
-### Montaje del KIT
+## Quick tutorial
 
+👀 Follow along in these video tutorial shows you the ins and outs of safely and effectively using the 3D Printing Machine with #biomaterials and #paste.
+
+[<img src="https://i.ytimg.com/vi/jNF1NYnVeio/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=jNF1NYnVeio)
+
+📺 https://www.youtube.com/watch?v=jNF1NYnVeio
+
+## Kit Assembly
+
+### Video tutorial
+
+[<img src="https://i.ytimg.com/vi/v1bxhi_dhr8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=v1bxhi_dhr8)
+
+📺 https://www.youtube.com/watch?v=v1bxhi_dhr8
+
+### Pictures
 
 ![](img/assembly_Page_1.jpg)
 
@@ -30,75 +47,197 @@ El sistema funciona con presión de aire para el sistema de alimentación (más 
 
 ![](img/assemblysteps.png)
 
-### B.O.M
+## Bill of Materials (BOM)
 
 ![](img/DSC09088.jpg)
 
-[LISTA DE MATERIALES EN FORMATO XLSX COMPLETA](B.O.M.-PastePrintingPublicVersion.xlsx)
+Download the complete [BOM in XLSX format](B.O.M.-PastePrintingPublicVersion.xlsx).
 
-### Montaje Electronica
+## Electronics Setup
 
-Si desconecta el cabezal de impresión fdm de la máquina que modifica, deberá colocar una resistencia de 100k ohmios en el lugar donde estaba conectado el termistor del cabezal de impresión (sensor de temperatura).
+If you disconnect the original FDM print head, place a 100k ohm resistor where the thermistor (temperature sensor) was connected.
 
 ![](img/motherboard.jpg)
 
-## Resumen de AEI-CLAB
+## About AEI-CLAB
 
-El objetivo de este proyecto es promover el uso de la tecnología maker y la impresión 3D en el ámbito educativo, utilizando materiales sostenibles y biocompatibles como la pasta de biomateriales.
-La impresión 3D es una técnica de fabricación aditiva que permite la creación de objetos tridimensionales a partir de un modelo digital. Esta tecnología está revolucionando diversos campos, desde la industria hasta la medicina y la educación.
+The AEI-CLAB project promotes the use of maker technologies and 3D printing in education, focusing on sustainable, biocompatible materials like biomaterial pastes.
 
-![](img/logo.jpg)
+By integrating 3D printing into education, students develop technical and creative skills and gain hands-on scientific and technological understanding. The use of biomaterials fosters sustainable and innovative solutions.
 
-El uso de la impresión 3D en la educación permite a los estudiantes desarrollar habilidades técnicas y creativas, así como comprender conceptos científicos y tecnológicos de manera práctica y amena. Además, la utilización de biomateriales en la impresión 3D contribuye a la sostenibilidad y al desarrollo de soluciones innovadoras y responsables con el medio ambiente.
-Este proyecto incluye talleres y actividades prácticas dirigidos a estudiantes de nivel secundario y universitario, en los que se enseñan los fundamentos de la impresión 3D y se explorarán las posibilidades de la pasta de biomateriales como material de impresión. Los participantes tendrán la oportunidad de diseñar y fabricar sus propios objetos utilizando esta tecnología, fomentando así su creatividad e innovación.
-Esperamos que este proyecto contribuya a la formación de una nueva generación de jóvenes comprometidos con la sostenibilidad y la tecnología, y que promueva el uso de la impresión 3D como herramienta educativa y de innovación.
+The project offers workshops and activities for secondary and university-level students, combining digital design with biomaterials printing to boost creativity, innovation, and environmental awareness.
 
-### Que encontrará en este repositorio:
+## Repository Contents
 
-Este repositorio contiene:
+This repository includes:
 
-- Archivos de modelos 3d para imprimir [link](3DPrintingFiles).
-- Algunas imágenes y visuales del montaje
-- Lista de materiales - B.O.M.[Link](B.O.M.-PastePrintingPublicVersion.xlsx)
+* [3D printable files](3DPrintingFiles)
+* Assembly images and schematics
+* [Bill of Materials (BOM)](B.O.M.-PastePrintingPublicVersion.xlsx)
 
-** Descargas ** * Puedes encontrarlos todos en este repositorio *
+## Downloads
+
+All files are available in this repository.
 
 ![](img/vertical.png)
 
-### Extras
+## Extras
 
-Le recomendamos que utilice un visualizador Gcode antes de enviar los archivos a la máquina.
+Before printing, we recommend checking your files using a G-code viewer.
 
-Hemos recopilado esta versión minimalista.[LINK TO Gcode WebVisualizer](https://fablabbcn-projects.gitlab.io/cnc-machines/g-code-visualizer/)
+Try this minimalist [G-code Web Visualizer](https://fablabbcn-projects.gitlab.io/cnc-machines/g-code-visualizer/).
 
+## Credits
+
+Project developed by Eduardo Chamorro Martin for Fab Lab Barcelona at IAAC (Institute for Advanced Architecture of Catalonia) under the 2022 call for Innovative Business Cluster Support by the Ministry of Industry, Commerce and Tourism.
+
+Project title: **CLAB: Innovation in Circular and Open Manufacturing Processes for Educational Environments**
+
+**Partners:**
+
+* IAAC & Fab Lab Barcelona
+* Fundación Bofill
+* Kid's Cluster
+* Abacus Cooperativa
+* Esteam Education
+* Anthesis Lavola
+
+## Special Thanks
+
+* Santi Fuentemilla & Guillem Camprodon for coordination and support.
+* Ashkan Foroughi Dehnavi for construction and testing.
+* Josep Martí for helping test multiple iterations.
+* Daphne Gerodimou for extensive documentation work and visuals.
+
+## Contributions
+
+We welcome contributions! Feel free to fork the repository and submit pull requests with improvements or new features.
+
+## License
+
+Hardware: [CERN Open Hardware Licence v1.2](LICENSE-hardware)
+Software: [GNU GPL v3.0](LICENSE-software)
+
+---
+
+**Spanish version:**
+
+# AEI-CLAB Kit de Impresión en Pasta y Biomateriales
+
+![](img/DSC09098.jpg)
+
+Bienvenido al repositorio del proyecto AEI-CLAB. Este entregable de Fab Lab Barcelona contiene los archivos de diseño, guías de montaje, esquemas y la Lista de Materiales (BOM) necesarios para modificar una impresora FDM tipo Creality Ender3 en un sistema de extrusión de pasta.
+
+![](img/printer.jpg)
+
+**Características principales:**
+
+* Sistema de alimentación por presión de aire: más seguro, fácil de configurar y limpio.
+* Poca tornillería: solo 4 tornillos necesarios para el desmontaje completo, facilitando la limpieza.
+* Cartuchos presurizados de HDPE de grado industrial (200–300 cc) seguros hasta 6,9 bar (presión de trabajo típica: 3–4 bar).
+* Tornillos extrusores personalizados en acero inoxidable con recubrimiento anticorrosión.
+* Compresor silencioso (\~55 dB), rango de 6 bar, depósito de 3L con válvulas de regulación y seguridad.
+
+## Versión Impresa en 3D
+
+![](img/v10pasteprinterkit.jpg)
+
+* Todas las piezas caben en una impresora 3D estándar de 200 x 200 x 200 mm.
+* Uso mínimo de soportes.
+* Tiempo máximo de impresión: 12 horas (altura de capa de 0,3 mm).
+* Menos de 1 kg de filamento necesario.
+
+## Tutorial rápido
+
+👀 Sigue este vídeo tutorial para aprender, de forma segura y eficaz, a utilizar la máquina de impresión 3D con **biomateriales** y **pasta**.
+
+[<img src="https://i.ytimg.com/vi/jNF1NYnVeio/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=jNF1NYnVeio)
+
+📺 https://www.youtube.com/watch?v=jNF1NYnVeio
+
+## Montaje del KIT
+
+### Video tutorial
+
+[<img src="https://i.ytimg.com/vi/v1bxhi_dhr8/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=v1bxhi_dhr8)
+
+📺 https://www.youtube.com/watch?v=v1bxhi_dhr8
+
+### Fotos
+
+![](img/assembly_Page_1.jpg)
+
+![](img/assembly_Page_2.jpg)
+
+![](img/assemblysteps.png)
+
+## Lista de Materiales (BOM)
+
+![](img/DSC09088.jpg)
+
+Descarga la [Lista de Materiales completa en formato XLSX](B.O.M.-PastePrintingPublicVersion.xlsx).
+
+## Montaje Electrónico
+
+Si desconectas el cabezal de impresión FDM original, debes colocar una resistencia de 100k ohmios donde estaba conectado el termistor (sensor de temperatura).
+
+![](img/motherboard.jpg)
+
+## Sobre AEI-CLAB
+
+El proyecto AEI-CLAB promueve el uso de tecnologías maker y la impresión 3D en educación, enfocándose en materiales sostenibles y biocompatibles como las pastas de biomateriales.
+
+La impresión 3D en entornos educativos permite a los estudiantes desarrollar habilidades técnicas y creativas, además de comprender conceptos científicos y tecnológicos de forma práctica. El uso de biomateriales impulsa soluciones innovadoras y responsables.
+
+El proyecto ofrece talleres y actividades para estudiantes de nivel secundario y universitario, combinando el diseño digital con la impresión de biomateriales para fomentar la creatividad, la innovación y la conciencia ambiental.
+
+## Contenidos del Repositorio
+
+Este repositorio incluye:
+
+* [Archivos imprimibles en 3D](3DPrintingFiles)
+* Imágenes de montaje y esquemas
+* [Lista de Materiales (BOM)](B.O.M.-PastePrintingPublicVersion.xlsx)
+
+## Descargas
+
+Todos los archivos están disponibles en este repositorio.
+
+![](img/vertical.png)
+
+## Extras
+
+Antes de imprimir, te recomendamos visualizar tus archivos G-code.
+
+Puedes usar esta versión minimalista del [Visualizador Web de G-code](https://fablabbcn-projects.gitlab.io/cnc-machines/g-code-visualizer/).
 
 ## Créditos
 
-Este complemento fue creado por Eduardo Chamorro Martin para FabLab Barcelona en el IAAC (Instituto de Arquitectura Avanzada de Cataluña),en el contexto del programa de ayudas para el apoyo a agrupaciones empresariales innovadoras del Ministerio de Industria, Comercio y Turismo. Convocatoria 2022.
+Proyecto desarrollado por Eduardo Chamorro Martin para Fab Lab Barcelona en el IAAC (Instituto de Arquitectura Avanzada de Cataluña) en el marco de la convocatoria 2022 de ayudas a Agrupaciones Empresariales Innovadoras del Ministerio de Industria, Comercio y Turismo.
 
-Bajo el proyecto **CLAB: INNOVACIÓN EN PROCESOS DE FABRICACIÓN CIRCULAR Y ABIERTA PARA ENTORNOS EDUCATIVOS**
+Título del proyecto: **CLAB: Innovación en Procesos de Fabricación Circular y Abierta para Entornos Educativos**
 
-Partners del proyecto:
+**Partners:**
 
-- IAAC & FabLab Barcelona
-- Fundación Bofill  
-- Kid's Cluster
-- Abacus cooperativa
-- Esteam education
-- Anthesis Lavola
-
+* IAAC & Fab Lab Barcelona
+* Fundación Bofill
+* Kid's Cluster
+* Abacus Cooperativa
+* Esteam Education
+* Anthesis Lavola
 
 ## Agradecimientos
 
-- Santi Fuentemilla & Guillem Camprodon por coordinar y apoyar este proyecto.
-- Ashkan Foroughi Dehnavi por su arduo trabajo de construcción de lotes probando conocimientos sobre su uso
-- Josep Marti por ayudar a probar aproximadamente todas las versiones del mismo.
-- Daphne Gerodimou por todo el enorme trabajo de documentación de esto y sus imágenes.
+* Santi Fuentemilla & Guillem Camprodon por la coordinación y apoyo del proyecto.
+* Ashkan Foroughi Dehnavi por el trabajo de construcción y pruebas.
+* Josep Martí por ayudar a probar varias versiones.
+* Daphne Gerodimou por el extenso trabajo de documentación y visuales.
 
 ## Contribuciones
 
-Alentamos a que bifurque el proyecto y haga una solicitud con sus contribuciones al proyecto y desarollo de código y hardware libre.
+¡Te animamos a contribuir! Puedes bifurcar el repositorio y enviar pull requests con mejoras o nuevas funcionalidades.
 
 ## Licencia
-s
-Estos diseños son de código abierto bajo licencia de hardware CERN Open Hardware Licence v1.2 para más detalles puedes consultar la [licencia hardware completa](LICENSE-hardware) y licencia GNU GPL v3.0 para software,para más detalles puedes consultar la [licencia software completa](LICENSE-software)
+
+Hardware: [CERN Open Hardware Licence v1.2](LICENSE-hardware)
+Software: [GNU GPL v3.0](LICENSE-software)
