@@ -2,7 +2,7 @@
 
 ![](img/DSC09098.jpg)
 
-Welcome to the repository for the AEI-CLAB project. This deliverable from [Fab Lab Barcelona](https://fablabbcn.org/) contains the design files, assembly guides, schematics, and the Bill of Materials (BOM) required to modify a Creality Ender3 or similar FDM 3D printer into a paste extrusion system.
+Welcome to the repository for the [AEI-CLAB](https://fablabbcn.org/projects/clab) project. This deliverable from [Fab Lab Barcelona](https://fablabbcn.org/) contains the design files, assembly guides, schematics, and the Bill of Materials (BOM) required to modify a Creality Ender3 or similar FDM 3D printer into a paste extrusion system.
 
 ![](img/printer.jpg)
 
@@ -126,7 +126,7 @@ Software: [GNU GPL v3.0](LICENSE-software)
 
 ![](img/DSC09098.jpg)
 
-Bienvenido al repositorio del proyecto AEI-CLAB. Este entregable de Fab Lab Barcelona contiene los archivos de diseño, guías de montaje, esquemas y la Lista de Materiales (BOM) necesarios para modificar una impresora FDM tipo Creality Ender3 en un sistema de extrusión de pasta.
+Bienvenido al repositorio del proyecto [AEI-CLAB](https://fablabbcn.org/projects/clab). Este entregable de Fab Lab Barcelona contiene los archivos de diseño, guías de montaje, esquemas y la Lista de Materiales (BOM) necesarios para modificar una impresora FDM tipo Creality Ender3 en un sistema de extrusión de pasta.
 
 ![](img/printer.jpg)
 
