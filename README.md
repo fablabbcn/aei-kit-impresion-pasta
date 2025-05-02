@@ -1,4 +1,4 @@
-# AEI-CLAB Paste and Biomaterials Printing Kit
+# CLAB Paste and Biomaterials Printing Kit
 
 ![](img/DSC09098.jpg)
 
@@ -122,7 +122,7 @@ Software: [GNU GPL v3.0](LICENSE-software)
 
 **Spanish version:**
 
-# AEI-CLAB Kit de Impresión en Pasta y Biomateriales
+# CLAB Kit de Impresión en Pasta y Biomateriales
 
 ![](img/DSC09098.jpg)
 
